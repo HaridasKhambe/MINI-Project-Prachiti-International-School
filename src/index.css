@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body{
+    background-color: #ffffff;
+}
+
+body, html {
+    overflow-x: hidden;
+  }
+/* red - #8e0203 */
+
+/* app blue - #21316d */

@@ -1,0 +1,29 @@
+/* index.css or styles.css (or any other CSS file in your project) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root {
+  /* --primary-color: #8e0203 ; red */
+  --primary-color: #ea512e;
+  --footer-bg: #21316d;   /* app blue - #21316d */
+  --link-hover: #faebd7;
+  --golden-border-b: #b28530;
+}
+
+.fancy-text {
+  font-family: "Segoe UI Italic", "Noto Sans Italic", "Roboto Italic", sans-serif;
+  font-style: italic;
+}
+
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-scroll-up {
+  animation: scrollUp 10s linear infinite;
+}

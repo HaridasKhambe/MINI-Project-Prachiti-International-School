@@ -1,0 +1,33 @@
+/* VerticalMarquee.css */
+.marquee-container {
+    position: relative;
+    overflow: hidden;
+    height: 200px; /* Adjust based on your design */
+    width: 100%; /* Full width */
+  }
+  
+  .marquee-content {
+    display: flex;
+    flex-direction: column;
+    animation: scrollUp 8s linear infinite; /* Adjust duration as needed */
+  }
+  
+  .marquee-item {
+    padding: 10px;
+    font-size: 16px; /* Adjust font size */
+    text-align: center;
+  }
+  
+  /* Keyframes for vertical scrolling */
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .marquee-content:hover {
+    animation-play-state: paused;
+  }
