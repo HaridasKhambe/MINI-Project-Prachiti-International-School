@@ -6,7 +6,7 @@ import { RiMenu2Line } from "react-icons/ri"; // Importing Menu Icon
 import { IoMdClose } from "react-icons/io"; //close
 
 
-import collegeLogo from '../../assets/JSPM-logo.jpeg'
+import collegeLogo from '../../assets/school-logo.png'
 
 import Dropdown from './Dropdown'
 
@@ -80,7 +80,7 @@ useEffect(() => {
       <div className="container mx-auto flex flex-col items-center p-4 gap-4 md:flex-row md:justify-center">
         {/* Left - Logo */}
         <div className="flex items-center space-x-2">
-          <img src={collegeLogo} alt="College Logo" className="h-26 w-26" />
+          <img src={collegeLogo} alt="College Logo" className="h-36 w-36" />
         </div>
 
         {/* Middle - College Name */}
