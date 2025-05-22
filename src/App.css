@@ -4,8 +4,8 @@
 :root {
   /* --primary-color: #8e0203 ; red */
   --primary-color: #800000;
-  --footer-bg: #2F2F2F;   /* app blue - #21316d */
-  --link-hover: #eacf9f;
+  --footer-bg: #21316d;   /* app blue - #21316d  , choco -#2F2F2F */
+  --link-hover: hwb(38 72% 2%);
   --golden-border-b: #b28530;
 }
 

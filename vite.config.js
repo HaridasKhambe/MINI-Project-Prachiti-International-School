@@ -10,4 +10,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  base: "/Prachiti-International-School-project"
 })
